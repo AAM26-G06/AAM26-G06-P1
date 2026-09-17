@@ -6,6 +6,7 @@ Grupo: 06
 
 ## Autores
 Pablo Iglesias Rodrigo [@Paigro](https://github.com/Paigro).
+
 Nieves Alonso Gilsanz [@nievesag](https://github.com/nievesag).
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narratech/market-base/blob/main/notebooks/market_base.ipynb)
