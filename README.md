@@ -1,8 +1,10 @@
 # Aprendizaje automático y minería de datos - Práctica 1: Estudio del Mercado de Steam 
 
 Asignatura: Aprendizaje automático y minería de datos
+
 Grupo: 06
-Autores:
+
+## Autores
 Pablo Iglesias Rodrigo [@Paigro](https://github.com/Paigro).
 Nieves Alonso Gilsanz [@nievesag](https://github.com/nievesag).
 
