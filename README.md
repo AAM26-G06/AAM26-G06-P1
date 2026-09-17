@@ -1,10 +1,10 @@
-# Market Base
+# Aprendizaje automático y minería de datos - Práctica 1: Estudio del Mercado de Steam 
 
-Asignatura: 
-Grupo: 
+Asignatura: Aprendizaje automático y minería de datos
+Grupo: 06
 Autores:
-Nombre Alumno 1 (@usuario_github)
-Nombre Alumno 2 (@usuario_github)
+Pablo Iglesias Rodrigo [@Paigro](https://github.com/Paigro).
+Nieves Alonso Gilsanz [@nievesag](https://github.com/nievesag).
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narratech/market-base/blob/main/notebooks/market_base.ipynb)
 
