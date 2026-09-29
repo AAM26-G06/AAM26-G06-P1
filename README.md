@@ -3,26 +3,30 @@
 - **Asignatura**: Aprendizaje automático y minería de datos
 - **Grupo**: 06
 
+## Índice
+1. [Autores](#autores)
+2. [Introducción](#introducción)
+3. [Objetivo de la práctica](#objetivo-de-la-práctica)
+4. [Estructura del repositorio](#estructura-del-repositorio)
+5. [Requisitos e instalación](#requisitos-e-instalación)
+6. [Bloques del estudio](#bloques-del-estudio)
+7. [Referencias](#referencias)
+
 ## Autores
 - Pablo Iglesias Rodrigo [@Paigro](https://github.com/Paigro).
 - Nieves Alonso Gilsanz [@nievesag](https://github.com/nievesag).
 
+## Introducción
+Este repositorio contiene la primera práctica **Estudio del Mercado de Steam** de la asignatura de Aprendizaje Automático y Minería de Datos del Grado en Desarrollo de Videojuegos de la UCM, cuyo enunciado original es este: [Estudio del Mercado de Steam](https://narratech.com/es/aprendizaje-automatico-y-mineria-de-datos/mineria-de-datos/estudio-del-mercado-de-steam/).
+
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narratech/market-base/blob/main/notebooks/market_base.ipynb)
-
-Este repositorio contiene el punto de partida para la práctica [Estudio del Mercado de Steam](https://narratech.com/es/aprendizaje-automatico-y-mineria-de-datos/mineria-de-datos/estudio-del-mercado-de-steam/) de la asignatura Aprendizaje Automático y Minería de Datos. 
-
-Para replicar el entorno de ejecución (con numpy, pandas, matplotlib, etc.) se puede usar Conda 26.7.2 y el fichero *environment.yml* de este repositorio:
-```
-conda env create -f environment.yml
-conda activate aam 
-```
 
 ## Objetivo de la práctica
 Trabajar sobre un conjunto de datos que representa el catálogo de videojuegos en la tienda Steam (Steam Games Dataset, descargado de Kaggle el 17 de septiembre de 2026), recorriendo las etapas de adquisición, limpieza, transformación, visualización y extracción de conocimiento para la toma de decisiones en el sector del videojuego.
 
 ## Estructura del repositorio
 
-El repositorio sigue la siguiente arquitectura de archivos y carpetas estándar para proyectos de Ciencia de Datos:
+El repositorio sigue la siguiente arquitectura de archivos y carpetas, estándar para proyectos de ciencia de datos:
 
 ```text
 AAM26-606-P1/
@@ -42,6 +46,12 @@ AAM26-606-P1/
 Los archivos dentro de data/raw/ (como games.csv) y data/processed no se almacenan en el control de versiones debido a su tamaño. El propio cuaderno interactivo se encarga de descargarlos e importarlos automáticamente desde la Release oficial de este mismo repositorio.
 
 ## Requisitos e instalación
+
+Para replicar el entorno de ejecución (con numpy, pandas, matplotlib, etc.) se puede usar Conda 26.7.2 y el fichero *environment.yml* de este repositorio:
+```
+conda env create -f environment.yml
+conda activate aam 
+```
 
 Para ejecutar y reproducir el análisis en un entorno local (como **Visual Studio Code** con la extensión de Python y Jupyter), se requieren las siguientes dependencias de Python (3.9+):
 - ipykernel
